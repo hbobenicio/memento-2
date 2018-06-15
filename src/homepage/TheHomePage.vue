@@ -4,12 +4,12 @@
       {{ snackMsg }}
     </v-snackbar>
 
-    <MHomePageTitle />
+    <HomePageTitle />
 
     <v-container fluid>
       <v-layout row wrap>
         <v-flex xs12 sm6 md4 lg3 class="text-xs-center" v-for="mes in meses" :key="mes.index">
-          <MCardMes :tipo="tipoPendencias[mes.index - 1]" :indiceMes="mes.index" />
+          <CardMes :tipo="tipoPendencias[mes.index - 1]" :indiceMes="mes.index" />
         </v-flex>
       </v-layout>
     </v-container>
@@ -25,7 +25,7 @@ import DespesaBC from '@/despesas/business/despesa.business'
 import DespesaService from '@/despesas/service/despesa.service'
 
 export default {
-  name: 'MHomePage',
+  name: 'HomePage',
   components: {
     [HomePageTitle.name]: HomePageTitle,
     [CardMes.name]: CardMes

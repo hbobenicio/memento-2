@@ -77,7 +77,7 @@ import ConfirmationDialogEventBus from '@/shared/components/confirmation-dialog/
 import router from '@/router/router'
 
 export default {
-  name: 'MDespesasPage',
+  name: 'DespesasPage',
   created () {
     if (!this.$route.params.mes) {
       throw new Error('Página não possui ')

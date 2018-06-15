@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: 'MLoading'
+  name: 'Loading'
 }
 </script>

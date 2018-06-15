@@ -27,7 +27,7 @@ import DespesaForm from './DespesaForm'
 import Loading from '@/shared/components/loading/Loading'
 
 export default {
-  name: 'MDespesasEditPage',
+  name: 'DespesasEditPage',
 
   created () {
     DespesaService.findById(this.despesaId)

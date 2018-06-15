@@ -30,7 +30,7 @@
 import ConfirmationDialogEventBus from '@/shared/components/confirmation-dialog/confirmation-dialog.event-bus'
 
 export default {
-  name: 'MConfirmationDialog',
+  name: 'ConfirmationDialog',
 
   data () {
     return {

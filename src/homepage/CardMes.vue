@@ -19,7 +19,7 @@ export const TIPO_PENDENTE = 'pendente'
 export const TIPO_FUTURO = 'futuro'
 
 export default {
-  name: 'MCardMes',
+  name: 'CardMes',
   props: {
     tipo: {
       type: String,

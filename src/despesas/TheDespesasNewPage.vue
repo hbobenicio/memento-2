@@ -24,7 +24,7 @@
 import DespesaForm from './DespesaForm'
 
 export default {
-  name: 'MDespesasEditPage',
+  name: 'DespesasEditPage',
 
   components: {
     DespesaForm

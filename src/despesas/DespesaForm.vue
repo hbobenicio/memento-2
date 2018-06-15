@@ -81,7 +81,7 @@ import { schema as DespesaSchema } from '@/despesas/model/despesa.schema'
 import DespesaService from './service/despesa.service'
 
 export default {
-  name: 'MDespesaForm',
+  name: 'DespesaForm',
 
   props: ['despesa'],
 

@@ -8,6 +8,6 @@
 
 <script>
 export default {
-  name: 'MHomePageTitle'
+  name: 'HomePageTitle'
 }
 </script>
