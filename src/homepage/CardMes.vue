@@ -88,8 +88,4 @@ export default {
   a {
     text-decoration: none;
   }
-
-  h2 {
-    // text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
-  }
 </style>
